@@ -8,3 +8,7 @@ _site/
 .luarc.json
 /.luarc.json
 env_website/
+
+
+*.Rprofile
+*.Rproj

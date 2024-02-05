@@ -1,0 +1,61 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "MATH 516"
+  description: "Homepage for MATH 516- Applied Statistics at EPFL, Fall 2024."
+  site-url: "https://math-517.github.io/website/"
+
+  repo-url: https://github.com/MATH-516/website
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  sidebar:
+    background: "#798b93"
+    pinned: true
+    align: center
+
+    tools:
+      - icon: github
+        href: https://github.com/MATH-516/website
+        text: "GitHub"
+
+    style: docked
+    search: true
+    collapse-level: 1
+
+    contents:
+      - section: "Course information"
+        contents:
+          - href: course-overview.qmd
+            text: Overview/Organisation
+          - href: course-syllabus.qmd
+            text: Syllabus
+          - href: index.qmd
+            text: Schedule
+          - href: course-faq.qmd
+      - section: "Projects"
+        contents: projects/*
+
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)"
+    left: "&copy; Copyright 2024, Charles Dufour"
+    background: "#5d6d74"
+
+
+format:
+  html:
+    theme:
+      light: [cosmo, style/sta101.scss]
+    linkcolor: "#36A2E1" #"#798b93"
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+
+execute:
+  freeze: auto
+
+editor: visual

@@ -1,0 +1,102 @@
+---
+title: "Course overview"
+number-sections: true
+---
+
+This is the homepage for MATH-516 Applied Statistics in Spring 2024 at EPFL. All course materials will be posted on this site.
+
+You can find the course syllabus [here](/course-syllabus.qmd) and the course schedule [here](/). All the additional ressources can be found either on [this page](https://math-517.github.io/math_517_website/resources/resources.qmd) or by using the search bar on the top left corner of the website. These ressources include supplementary material, tutorials, tips and tricks, etc...
+
+
+
+
+# Course Organization
+
+| Meeting   | Location                       | Time                     |
+|-----------|--------------------------------|--------------------------|
+| Lectures  | GCD 03 86                      | Fri 10:15 - 12:00        |
+| Exercises | CM 1 221                       | Fri 13:15 - 15:00        |
+
+
+
+# Course Content
+
+As far as the lecture topics go, the first 2 weeks will be less mathematical, while the remaining weeks will be somehow more classical. However, the focus of this course is on methods and algorithms, *not* on inference and theory, hence we will rarely, if ever, prove theorems. We may however do (blackboard) calculations from time to time.
+
+Apart from the topics mentioned [in the schedule](index.qmd), mastering this course requires scripting (simulation studies and data exploration & visualization tasks), as well as sharing your code via **GitHub**. You will be required to do a small project a final project, and various assignments fostering these skills. **Exercise classes should be attended** and used to pick up the required skills, and work on these projects and assignments! Additional exercises can be found in the Exercices tab on this website.
+
+# Evaluation
+
+The assessment method for this course is "controle continue", meaning that the course and all the work required from the students effectively ends before Christmas. This also means that the **work needed to pass this course starts immediately on Week 1**.
+
+The final grade will consist of
+
+* handing in assignments -- 40 % of the grade, handed-in individually
+    - probably 8 assignments in total, each for 5 % of the grade
+    - collaboration during the exercise classes is encouraged, but avoid copies
+* small project -- 20 % of the grade, handed-in in groups of 2-3 students, and
+* final project -- 40 % of the grade, handed-in in (the same) groups of 2-3. [^1]
+
+**Grading** will be done on a rough scale. For example the assignments will be mostly graded on a binary basis, you either receive full 5 % or nothing. Similarly the projects will be graded in 5 % increments. Notice that 5 % corresponds to 0.25 increment on the 1-6 scale used at EPFL. As a result, skipping an assignment will irrevocably reduce your final grade. On the other hand, the assignments will be short and simple, and serious attempts to solve them should resolve in the full mark. Similarly for the projects, with one exception: 10 % of the final project will be awarded for value added (original data analysis, simulation study answering a previously unclear question, etc.).
+
+**Deadlines** will always be set at the end of the week (the midnight between Sunday and Monday), hence e.g. "deadline on Week 2" simply means the assignment can be handed-in by 23:59 on October 1. An assignment from Week $k$ (given at the end of slides to the $k$-th lecture) will always have their deadline on Week $k+1$ (i.e. the midnight between Sunday and Monday following the $(k+1)$-th lecture, see [the schedule](index.qmd)).
+
+## Assignments
+
+There will be 8 assignments during the semester, graded as described above. Assignments can be in the `Assignments` tab on this website (or equivalently in [the schedule](index.qmd)). Exercises are not mandatory, only recommended.  
+
+::: callout-info
+To accept the assignment, you need to first acess the [google document with all the invite links](https://docs.google.com/document/d/1XTO7obXEr2Yxllxk48wnZ5e49ptPGMsMyl40KEZDGRg/edit?usp=sharing), then click on the link corresponding to the assignment you want to accept. This will create a repository for you on GitHub. You can then clone this repository on your computer and start working on the assignment.
+:::
+
+
+## Projects
+
+The small project can start after the second lecture, deadline on Week 5. See [here](projects/project-01.qmd) for details.
+
+
+The main project can start following the $7$-th lecture, deadline on December 24, at 23:59. This is a soft deadline. I would suggest you finish the project before Christmas, however, **if all members of the team agree to this**, the project can be submitted by the end of the calendar year. This is recommended in order to prevent the holiday season ruined by a lazy member(s) of the team. Note that if a single member of your team wishes to submit on December 23, you are required to do so. See [here](projects/project-02.qmd) for details.
+
+
+<a name="groups"></a>
+**Groups** can be of size of either 2 or 3 people. The size will *not* matter w.r.t. to grading. However, a group of size 3 will have one additional task to do: as part of their submission, every team member will individually include a short paragraph describing contributions of every individual member of the team. This is not to be discussed among the team members, as it serves as a safeguard. Regardless of their individual contributions, each member of the team will receive the same grade, apart from where this would be extremely unfair. Such cases will be discussed personally. In case of any team-work problems, the students are encouraged to seek advice (mostly as a group) from the teachers (mostly during the exercise classes).
+
+# Grade Calculation
+
+Your submissions will receive a grade on the percentage scale of the final grade, e.g. the assignments will be awarded either 0 and 5 points, the small project between 0 and 20 points (mostly 0, 5, 10, 15 or 20), and the final project between 0 and 40 points (again, mostly divisible by 5). Let $a_1,\ldots,a_8$ denote points you receive from the assignments, $s$ points received for the small project, and $p$ be the final project points. The final grade will be calculated as
+$$
+1 + \frac{5}{100}\left(\sum_{j=1}^8 a_j + s + p \right)
+$$
+which gives the best possible grade
+```{r}
+a <- rep(5,8)
+s <- 20
+p <- 40
+1 + 5/100*(sum(a) + s + p)
+```
+
+# Materials
+
+All materials will be gradually made available on this website. Assignments and exercices can be accessed through their respective tabs, supplemental materials can be found in the [`Ressources`](resources/resources.qmd) tab. Lecture slides will be posted in the [schedule](index.qmd).
+
+
+# Handing-in Assignments and Projects
+
+We will use GitHub Classroom to handle the assignments and projects for this course. See [this page](resources/tutorials/github_classroom.qmd) for more information on how to use GitHub Classroom.
+
+
+<br>
+
+## **License**
+
+[![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png){alt="Creative Commons License"}](https://creativecommons.org/licenses/by-sa/4.0/)\
+This online work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). Visit [here](https://github.com/dukestatsciintrods/blob/master/LICENSE.md) for more information about the license.
+
+This website and part of the course materials where adapted from different sources:
+
+- [Dr. Mine Çetinkaya-Rundel STA 101 website](https://sta101-f23.github.io/course-overview.html)
+- [Dr. Tomas Masák MATH-517 Fall 2022 course](https://github.com/TMasak/StatComp)
+- [fredhutch.io](https://fredhutchio.github.io/r_intro/) and [R for data analysis and visualization of Ecological Data](https://datacarpentry.org/R-ecology-lesson/instructor/aio.html)
+
+
+[^1]: Details on how group submissions will be handled will be provided later in the semester.

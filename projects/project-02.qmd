@@ -1,0 +1,30 @@
+---
+title: "Project Week 2"
+subtitle: "TBA"
+bibliography: ref.bib
+---
+
+
+::: callout-important
+**Due date**
+:::
+
+::: {.callout-note collapse="true"}
+# Invite link for GitHub Classroom
+
+Use the corresponding invite link in [this google doc]() (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the [course GitHub organization](https://github.com/MATH-516) and locate the repo titled `project-TEAM-NAME` to get started.
+:::
+
+::: {.callout-warning collapse="true"}
+# Submission requirements
+
+You are required to hand in a PDF version of your report `report.pdf` (generated from the quarto file `report.qmd`) and the quarto file itself. The `report.qmd` should contain all the code necessary to reproduce your results: you should not show the actual code in the PDF report, unless you want to point out something specific.
+
+Your `README.md` should contain instructions on reproducing the PDF report from the quarto file. This can be useful if you have issues with the automatic generation of the PDF report right before the deadline.
+
+**Checklist**:
+
+1. [ ] `report.pdf` in GitHub repository (**max 20 pages**)
+2. [ ]  Source code in GitHub repository 
+3. [ ] `README.md` with instructions on how to run the code and reproduce the PDF report
+:::
