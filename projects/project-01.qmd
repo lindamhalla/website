@@ -12,7 +12,7 @@ bibliography: ref.bib
 ::: {.callout-note collapse="true"}
 # Invite link for GitHub Classroom
 
-Use the corresponding invite link in [this google doc]() (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the [course GitHub organization](https://github.com/MATH-516) and locate the repo titled `project-TEAM-NAME` to get started.
+Use the corresponding invite link in [this google doc](https://docs.google.com/document/d/1afF2fwIfGWERRVEiZRsjQilJc3vNa6i4ncfPBSvJJD0/edit?usp=sharing) (accessible with your EPFL account) to accept the project, and either join an existing team or create a new one. Once this is done, go to the [course GitHub organization](https://github.com/MATH-516) and locate the repo titled `project-TEAM-NAME` to get started.
 :::
 
 ::: {.callout-warning collapse="true"}

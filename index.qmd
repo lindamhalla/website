@@ -58,10 +58,10 @@ d |>
     columns = c(topic, due)
   ) |>
   cols_width(
-    week ~ px(45),
-    date ~ px(100), 
+    week ~ px(50),
+    date ~ px(120), 
     topic ~ px(300),
-    due ~ px(120)
+    due ~ px(150)
   ) |>
   cols_label_with(fn = function(x) {
       janitor::make_clean_names(x, case = "title") |>
