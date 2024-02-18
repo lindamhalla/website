@@ -1,12 +1,12 @@
 ---
-title: "Project Week 1"
-subtitle: "TBA"
+title: "Project 1"
+subtitle: "Snow Particles"
 bibliography: ref.bib
 ---
 
 
 ::: callout-important
-**Due date**
+**Due date:** Sunday, March 3
 :::
 
 ::: {.callout-note collapse="true"}
