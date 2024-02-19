@@ -12,7 +12,7 @@ If you do not find the answer to your question here, you can use the search bar 
 
 #### Which language will we be using?
 
-You can use either Python,R, or Julia. We will be providing code examples and suppport in all three languages. 
+You can use either Python,R, or Julia. We will only provide examples and support in R, though.  
 
 
 
@@ -44,4 +44,4 @@ the software you are using. For the very last percent you can ask your question 
 
 #### I cannot find the repository linked to the assignment, what should I do?
 
-At the top of each assignment there should be a link you can manually click to accept the assignment. If this happens *after* the first assignment, please let us know.
+At the top of each assignment there should be a link you can manually click to accept the assignment. Links will also be provided on Moodle. If this happens *after* the first assignment, please let us know.
